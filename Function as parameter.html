@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+	function func1(a, b){
+		var a;
+		var b;
+	    var c =  a + b;
+		return c;
+	};
+
+	function func2(func){
+	    alert(func(4, 5));
+	};
+</script>
+</head>
+<body>
+
+<h2>Zemoso : Javascript Assignment</h2>
+
+<button type="button" onclick="func2(func1)">Click : Function passed as a parameter.</button>
+
+</body>
+</html>
